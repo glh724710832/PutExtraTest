@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/text1_secondactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edit1_secondactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1_secondactivity"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button_secondactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回计算结果"
+        android:layout_below="@id/edit1_secondactivity"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
